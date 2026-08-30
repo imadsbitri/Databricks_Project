@@ -68,5 +68,6 @@ The Gold layer is structured around a **Star Schema** to optimize query executio
 * **Connectivity:** Direct connection pointing to Databricks Gold Delta tables.
 * **Capability:** Enables executive dashboards, dynamic slicing across enterprise dimensions, and automatic cache updates aligned with the daily workflow run.
 
+![Power_bi](schemas/power_bi.png)
 
 ---
