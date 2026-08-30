@@ -1,5 +1,5 @@
-# Markdown
-# Enterprise Data Warehouse & Analytics Pipeline
+
+# Databricks Project
 
 ## Project Overview
 This repository contains an end-to-end data engineering solution built on Databricks. The project ingests raw operational data from disparate enterprise source systems (CRM and ERP)[cite: 2, 3], processes it through a multi-tier Medallion Architecture (Bronze, Silver, Gold)[cite: 1, 2, 3], builds a BI-ready dimensional model (Star Schema)[cite: 3], and exposes clean analytical datasets directly to Power BI for enterprise reporting.
