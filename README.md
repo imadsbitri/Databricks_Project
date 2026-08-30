@@ -14,6 +14,8 @@ This repository contains an end-to-end data engineering solution built on Databr
 * **Gold Layer (Business Logic & Modeling):** SQL/PySpark joins and window functions building a Star Schema model with fact and dimension tables.
 * **Power BI Layer:** Direct connection to Gold Delta tables for enterprise reporting and analytical dashboards.
 
+![Data Architecture](schemas/process.jfif)
+
 ---
 
 ## Data Pipeline Stages
@@ -58,6 +60,8 @@ The Gold layer is structured around a **Star Schema** to optimize query executio
 * **Dependency Chain:** Runs sequential tasks ensuring Bronze ingestion finishes before Silver cleansing begins, followed by Gold dimensional modeling.
 * **Reliability:** Features automated retries, failure alerting, and isolated task execution states to support reliable daily production runs.
 
+![Pipeline Orchestration](schemas/orchestration.png)
+
 ---
 
 ## Analytics Integration
@@ -65,5 +69,7 @@ The Gold layer is structured around a **Star Schema** to optimize query executio
 * **Target Platform:** Power BI.
 * **Connectivity:** Direct connection pointing to Databricks Gold Delta tables.
 * **Capability:** Enables executive dashboards, dynamic slicing across enterprise dimensions, and automatic cache updates aligned with the daily workflow run.
+
+![Star Schema](schemas/star_schema.png)
 
 ---
